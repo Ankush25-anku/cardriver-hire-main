@@ -16,7 +16,7 @@ const CtaSection = () => {
             Professional drivers and reliable vehicles for your comfort and
             safety.
             <br />
-            From daily commutes to outstation trips, we've got you covered.
+            From daily commutes to outstation trips, we&apos;ve got you covered.
           </p>
           <div className="cta-call">
             <i className="las la-phone-volume"></i>

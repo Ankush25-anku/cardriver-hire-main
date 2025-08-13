@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const TeamSection = () => {
   const teamMembers = [
@@ -47,7 +48,8 @@ const TeamSection = () => {
             <div className="col-lg-3 col-md-6 sm-padding" key={index}>
               <div className="team-item">
                 <div className="team-thumb">
-                  <img src={driver.image} alt="thumb" />
+                  <img src={driver.image} alt="thumb"
+                   />
                 </div>
                 <div className="team-content">
                   <h3>
