@@ -9,13 +9,13 @@ const NavMenuWrapper = () => {
   const [showSearch, setShowSearch] = useState(false);
 
   const handleSearchClick = () => {
-    console.log("🔍 Search icon clicked");
     setShowSearch(true);
   };
 
   const handleSearchClose = () => {
     setShowSearch(false);
   };
+
   return (
     <>
       <div className="nav-menu-wrapper">
@@ -86,7 +86,7 @@ const NavMenuWrapper = () => {
                       <Link href="/testimonials">Customer Reviews</Link>
                     </li>
                     <li>
-                      <Link href="/faqs">Help & Faq's</Link>
+                      <Link href="/faqs">Help &amp; Faq&apos;s</Link>
                     </li>
                     <li>
                       <Link href="/404">404 Error</Link>
@@ -115,7 +115,10 @@ const NavMenuWrapper = () => {
 
             {/* Right side buttons/icons */}
             <div className="menu-right-item">
-              <div className="search-icon dl-search-icon">
+              <div
+                className="search-icon dl-search-icon"
+                onClick={handleSearchClick}
+              >
                 <i className="las la-search"></i>
               </div>
               <div className="sidebox-icon dl-sidebox-icon">
@@ -137,7 +140,8 @@ const NavMenuWrapper = () => {
           </div>
         </div>
       </div>
-       <PopupSearchBox show={showSearch} onClose={handleSearchClose} />
+
+      <PopupSearchBox show={showSearch} onClose={handleSearchClose} />
     </>
   );
 };

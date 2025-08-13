@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect } from "react";
+import Link from "next/link";
 
 const Footer = () => {
   useEffect(() => {
@@ -18,9 +19,9 @@ const Footer = () => {
             <div className="row align-items-end">
               <div className="col-lg-8">
                 <div className="brand">
-                  <a className="footer-logo" href="/">
+                  <Link className="footer-logo" href="/">
                     <img src="/assets/img/logo-light.png" alt="logo" />
-                  </a>
+                  </Link>
                   <p>
                     We successfully cope with tasks of varying complexity,
                     provide long-term guarantees and regularly master new
@@ -69,14 +70,24 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6 sm-padding">
               <div className="footer-item footer-list">
                 <div className="widget-title">
-                  <h3>Usefull Links</h3>
+                  <h3>Useful Links</h3>
                 </div>
                 <ul className="footer-links">
-                  <li><a href="book-taxi.html">Taxi Booking</a></li>
-                  <li><a href="faqs.html">Help Center</a></li>
-                  <li><a href="about-us.html">Privacy and Policy</a></li>
-                  <li><a href="about-company.html">Terms of Use</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
+                  <li>
+                    <Link href="/book-taxi">Taxi Booking</Link>
+                  </li>
+                  <li>
+                    <Link href="/faqs">Help Center</Link>
+                  </li>
+                  <li>
+                    <Link href="/privacy-policy">Privacy and Policy</Link>
+                  </li>
+                  <li>
+                    <Link href="/terms">Terms of Use</Link>
+                  </li>
+                  <li>
+                    <Link href="/contact">Contact Us</Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -89,7 +100,8 @@ const Footer = () => {
                 </div>
                 <ul className="footer-contact">
                   <li>
-                    <span>Location:</span> 153 Williamson Plaza, Maggieberg, MT 09514
+                    <span>Location:</span> 153 Williamson Plaza, Maggieberg, MT
+                    09514
                   </li>
                   <li>
                     <span>Join Us:</span> Info@YourGmail24.com
@@ -112,8 +124,14 @@ const Footer = () => {
                     placeholder="Your Email"
                     required
                   />
-                  <input type="hidden" name="action" value="mailchimpsubscribe" />
-                  <button className="submit" type="submit">Subscribe Now</button>
+                  <input
+                    type="hidden"
+                    name="action"
+                    value="mailchimpsubscribe"
+                  />
+                  <button className="submit" type="submit">
+                    Subscribe Now
+                  </button>
                   <div className="clearfix"></div>
                   <div id="subscribe-result">
                     <div className="subscription-success"></div>

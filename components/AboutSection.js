@@ -44,9 +44,10 @@ const AboutSection = () => {
               <p>
                 At Anand Car Driver Hire, we specialize in providing reliable
                 drivers and well-maintained vehicles to meet your everyday
-                travel and long-distance needs. Whether it’s a routine commute,
-                airport transfer, or an outstation trip, our professional team
-                ensures your journey is smooth, safe, and on time.
+                travel and long-distance needs. Whether It&apos;s a routine
+                commute, airport transfer, or an outstation trip, our
+                professional team ensures your journey is smooth, safe, and on
+                time.
               </p>
             </div>
 

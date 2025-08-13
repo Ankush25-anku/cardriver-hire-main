@@ -5,8 +5,7 @@ import Header from "../../components/Header";
 import MidHeader from "../../components/midheader";
 import NavMenuWrapper from "../../components/NavMenuWrapper";
 import Footer from "../../components/Footer";
-// import PopupSearchBox from "../../components/PopupSearchBox";
-// import PopupSidebox from "../../components/PopupSidebox";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
