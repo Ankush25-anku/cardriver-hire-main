@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 const AboutCompanySection = () => {
   return (
@@ -27,14 +28,14 @@ const AboutCompanySection = () => {
 
             <ul className="about-info">
               <li>
-                <img
+                <Image
                   className="owner-thumb"
                   src="/assets/img/comment-1.png"
                   alt="thumb"
                 />
                 <div className="owner">
                   <h4>Founder - CEO</h4>
-                  <img
+                  <Image
                     className="signature"
                     src="/assets/img/signature.png"
                     alt="signature"
@@ -53,9 +54,9 @@ const AboutCompanySection = () => {
           {/* Right Video/Image Section */}
           <div className="col-md-6">
             <div className="video-box-inner">
-              <img src="/assets/img/about-3.jpg" alt="thumb" />
+              <Image src="/assets/img/about-3.jpg" alt="thumb" />
               <div className="video-box">
-                <img src="/assets/img/about-1.png" alt="thumb" />
+                <Image src="/assets/img/about-1.png" alt="thumb" />
                 <a
                   data-autoplay="true"
                   data-vbtype="video"

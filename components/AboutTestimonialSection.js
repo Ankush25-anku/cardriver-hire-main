@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 const TestimonialSection = () => {
   return (
@@ -37,7 +38,10 @@ const TestimonialSection = () => {
                         </p>
                         <div className="testi-author">
                           <div className="author-thumb">
-                            <img src="/assets/img/comment-1.png" alt="author" />
+                            <Image
+                              src="/assets/img/comment-1.png"
+                              alt="author"
+                            />
                           </div>
                           <div className="author-info">
                             <h3>
