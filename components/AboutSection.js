@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 const AboutSection = () => {
   return (
@@ -10,22 +11,28 @@ const AboutSection = () => {
           {/* Left Image Section */}
           <div className="col-md-6">
             <div className="about-img">
-              <img
+              <Image
                 className="about-img1 wow fade-in-left"
                 data-wow-delay="200ms"
                 src="/assets/img/about-1.png"
                 alt="about Anand Car Driver Hire"
+                width={450} // intrinsic width
+                height={380}
               />
-              <img
+              <Image
                 className="about-img2 wow fade-in-bottom"
                 data-wow-delay="400ms"
                 src="/assets/img/about-2.png"
                 alt="professional drivers"
+                width={200}
+                height={225}
               />
               <figure className="round-text">
-                <img
+                <Image
                   src="/assets/img/experience-text-round.png"
                   alt="experience"
+                  width={187}
+                  height={187}
                 />
               </figure>
             </div>
@@ -53,17 +60,22 @@ const AboutSection = () => {
 
             <ul className="about-info wow fade-in-right" data-wow-delay="400ms">
               <li>
-                <img
+                <Image
                   className="owner-thumb"
                   src="/assets/img/comment-1.png"
                   alt="founder"
+                  width={80}
+                  height={80}
                 />
                 <div className="owner">
                   <h4>Founder - CEO</h4>
-                  <img
+                  <Image
                     className="signature"
                     src="/assets/img/signature.png"
                     alt="signature"
+                    width="140"
+                    height={50} // numeric value in pixels (adjust to keep aspect ratio)
+                    style={{ width: "140px", height: "auto" }}
                   />
                 </div>
               </li>

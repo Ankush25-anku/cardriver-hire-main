@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 const testimonials = [
   {
@@ -71,7 +72,12 @@ const TestimonialFeatureSection = () => {
                         <p>{item.text}</p>
                         <div className="testi-author">
                           <div className="author-thumb">
-                            <img src={item.image} alt="author" />
+                            <Image
+                              src={item.image}
+                              alt="author"
+                              width={80}
+                              height={80}
+                            />
                           </div>
                           <div className="author-info">
                             <h3>
