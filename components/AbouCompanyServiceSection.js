@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const services = [
   {
@@ -57,12 +58,12 @@ const AboutCompanyServiceSection = () => {
             <div className="col-lg-4 col-sm-6 padding-15" key={service.id}>
               <div className="service-item">
                 <div className="service-thumb">
-                  <img src={service.image} alt="img" />
+                  <Image src={service.image} alt="img" />
                   <div className="service-shape-wrap">
                     <div className="service-shape"></div>
                   </div>
                   <div className="service-car">
-                    <img src={service.carImage} alt="car" />
+                    <Image src={service.carImage} alt="car" />
                   </div>
                 </div>
                 <div className="service-content">
