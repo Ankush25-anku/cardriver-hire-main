@@ -104,7 +104,7 @@ const TaxiSlider = () => {
                         >
                           Professional drivers and reliable vehicles for your
                           comfort and safety. From daily commutes to outstation
-                          trips, we've got you covered.
+                          trips, we&apos;ve got you covered.
                         </div>
                       </div>
                     </div>

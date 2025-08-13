@@ -336,7 +336,6 @@
 
 .service-thumb {
   position: relative;
-
 }
 
 .service-shape-wrap {
@@ -1608,7 +1607,8 @@
 }
 
 .team-content:before {
-  background-image: url(../img/car%20steering.svg);
+  /* background-image: url(../img/car%20steering.svg); */
+  background-image: url("/assets/image/img/car-steering.svg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 50%;

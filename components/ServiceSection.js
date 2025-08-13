@@ -65,7 +65,7 @@ const ServiceSection = () => {
             From two-wheelers to cars and autos, Anand Car Driver Hire offers a
             full range of transportation options. <br />
             Whether you need a ride or a skilled driver for your own vehicle —
-            we're here to help.
+            we&apos;re here to help.
           </p>
         </div>
 
