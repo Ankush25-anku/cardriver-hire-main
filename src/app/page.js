@@ -18,6 +18,7 @@ import BlogSection from "../../components/BlogSection";
 
 import ScrollToTop from "../../components/ScrollToTop";
 import DLCursor from "../../components/DLCursor";
+import SearchPage from "./search/page";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       {/* <NavMenuWrapper /> */}
       {/* <PopupSearchBox /> */}
       <PopupSidebox />
+      {/* <SearchPage /> */}
       <TaxiSlider />
       <AboutSection />
       <ServiceSection />
