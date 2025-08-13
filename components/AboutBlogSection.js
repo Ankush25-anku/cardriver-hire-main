@@ -3,6 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+
 const BlogSection = () => {
   const posts = [
     {
@@ -57,7 +58,12 @@ const BlogSection = () => {
             <div className="col-lg-4 col-md-6 padding-15" key={index}>
               <div className="post-card">
                 <div className="post-thumb">
-                  <Image src={post.image} alt="post" />
+                  <Image
+                    fill
+                    style={{ objectFit: "cover" }}
+                    src={post.image}
+                    alt="post"
+                  />
                   <Link href={post.link} className="post-category">
                     {post.category}
                   </Link>

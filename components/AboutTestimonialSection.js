@@ -41,6 +41,8 @@ const TestimonialSection = () => {
                             <Image
                               src="/assets/img/comment-1.png"
                               alt="author"
+                              width={120} // specify width
+                              height={60}
                             />
                           </div>
                           <div className="author-info">

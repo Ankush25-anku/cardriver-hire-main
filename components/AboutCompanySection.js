@@ -1,7 +1,7 @@
 "use client";
 
-import React from "react";
 import Image from "next/image";
+import React from "react";
 
 const AboutCompanySection = () => {
   return (
@@ -32,13 +32,19 @@ const AboutCompanySection = () => {
                   className="owner-thumb"
                   src="/assets/img/comment-1.png"
                   alt="thumb"
+                  width={80}
+                  height={80}
                 />
+
                 <div className="owner">
                   <h4>Founder - CEO</h4>
                   <Image
                     className="signature"
                     src="/assets/img/signature.png"
                     alt="signature"
+                    width="140"
+                    height={50} // numeric value in pixels (adjust to keep aspect ratio)
+                    style={{ width: "140px", height: "auto" }} // CSS controls actual display
                   />
                 </div>
               </li>
@@ -53,10 +59,23 @@ const AboutCompanySection = () => {
 
           {/* Right Video/Image Section */}
           <div className="col-md-6">
-            <div className="video-box-inner">
-              <Image src="/assets/img/about-3.jpg" alt="thumb" />
+            <div className="video-box-inner" style={{ position: "relative" }}>
+              <Image
+                src="/assets/img/about-3.jpg"
+                alt="thumb"
+                width={400} // Required for Next.js Image
+                height={400} // Set proportionally to maintain aspect ratio
+                style={{ borderRadius: "5px" }} // Optional, or keep in CSS
+              />
               <div className="video-box">
-                <Image src="/assets/img/about-1.png" alt="thumb" />
+                <Image
+                  src="/assets/img/about-1.png"
+                  alt="thumb"
+                  width={600} // actual image width or any value, CSS will scale it
+                  height={400} // actual image height or any value, CSS will scale it
+                  style={{ width: "100%", height: "auto", borderRadius: "5px" }}
+                />
+
                 <a
                   data-autoplay="true"
                   data-vbtype="video"
