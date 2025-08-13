@@ -1,0 +1,71 @@
+.anand-header {
+  background: linear-gradient(to right, #1e3a8a, #3b82f6);
+  color: white;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.anand-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.anand-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.anand-icon {
+  font-size: 2rem;
+  color: white;
+}
+
+.anand-branding {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.anand-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.anand-subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.anand-right {
+  text-align: right;
+}
+
+.anand-service-text {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.anand-contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.anand-phone-icon {
+  color: #ef4444; /* tailwind red-500 */
+  font-size: 1.1rem;
+}
+
+.anand-phone-number {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: white;
+}

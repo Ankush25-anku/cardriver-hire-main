@@ -1,0 +1,86 @@
+
+.anand-booking-container {
+  background: #f9fafa;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.anand-booking-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #1f2937;
+}
+
+.anand-booking-form-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.anand-booking-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.anand-booking-group {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.anand-booking-group label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.anand-booking-group input,
+.anand-booking-group select,
+.anand-booking-group textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.anand-booking-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.anand-booking-submit-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.anand-booking-submit-btn {
+  background-color: #2563eb;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.anand-booking-submit-btn:hover {
+  background-color: #1e40af;
+}
+
+.anand-booking-message {
+  text-align: center;
+  margin-top: 1rem;
+  color: green;
+  font-weight: 600;
+}

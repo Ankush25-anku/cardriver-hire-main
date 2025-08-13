@@ -1,0 +1,109 @@
+.anand-serviceareas-section {
+  background-color: #f9fafb;
+  padding: 60px 20px;
+}
+
+.anand-serviceareas-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.anand-serviceareas-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #111827;
+  margin-bottom: 30px;
+}
+
+.anand-serviceareas-heading {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.anand-serviceareas-description {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 40px;
+}
+
+.anand-serviceareas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.anand-serviceareas-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 30px 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.anand-serviceareas-card:hover {
+  transform: translateY(-5px);
+}
+
+.anand-serviceareas-icon {
+  font-size: 2.5rem;
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+.anand-serviceareas-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.anand-serviceareas-card-text {
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.anand-serviceareas-footer-text {
+  font-size: 1rem;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.anand-serviceareas-button {
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.anand-serviceareas-button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
+  .anand-serviceareas-title {
+    font-size: 2rem;
+  }
+
+  .anand-serviceareas-heading {
+    font-size: 1.5rem;
+  }
+
+  .anand-serviceareas-description,
+  .anand-serviceareas-footer-text {
+    font-size: 0.95rem;
+  }
+
+  .anand-serviceareas-button {
+    width: 100%;
+  }
+}
