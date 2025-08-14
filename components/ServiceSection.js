@@ -18,7 +18,7 @@ const services = [
   },
   {
     title: "Hire Two-Wheeler",
-    img: "/assets/img/Bikebg.jpg",
+    img: "/assets/img/bikebg.jpg",
     car: "/assets/img/Bike5.png",
     link: "service-details.html",
     delay: "400ms",
