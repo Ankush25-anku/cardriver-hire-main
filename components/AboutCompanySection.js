@@ -59,16 +59,14 @@ const AboutCompanySection = () => {
 
           {/* Right Video/Image Section */}
           <div className="col-md-6">
-            <div className="video-box-inner" style={{ position: "relative" }}>
-              <Image
+            <div className="video-box-inner">
+              <img
                 src="/assets/img/about-3.jpg"
                 alt="thumb"
-                width={400} // Required for Next.js Image
-                height={400} // Set proportionally to maintain aspect ratio
-                style={{ borderRadius: "5px" }} // Optional, or keep in CSS
+                // Optional, or keep in CSS
               />
               <div className="video-box">
-                <Image
+                <img
                   src="/assets/img/about-1.png"
                   alt="thumb"
                   width={600} // actual image width or any value, CSS will scale it
